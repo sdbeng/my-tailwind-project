@@ -26,12 +26,20 @@
 ```
 
 ### ch2: padding & margin
-.{p|m}-{size}
+.{p|m{l|r|t|b}}-{size}
 
 Sizes
 0,1,2,3,4,5,6    +1
 8,10,12,         +2
 16,20,24         +4
 32,40,48,56,64   +8
+
+ex. if need padding of 16px, will be p-4
+
+```
+<div class="bg-blue-800 w-32 h-32 mb-4 p-4">Text</div>
+ <div class="bg-blue-500 w-32 h-32 p-4">Text</div>
+```
+{p|m{x|y}}-{size}
 
 ### ch3
