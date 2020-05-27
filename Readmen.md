@@ -1,0 +1,26 @@
+## Tailwind explained
+
+## Challenges
+### ch1:design 9 boxes with all shades of blue 20x24 px
+```
+<html>
+    <head>
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    </head>
+    <body class="bg-gray-200">
+        
+        <div class="w-5 h-6 bg-blue-100">Text</div>
+        <div class="w-5 h-6 bg-blue-200">Text</div>
+        <div class="w-5 h-6 bg-blue-300">Text</div>
+        <div class="w-5 h-6 bg-blue-400">Text</div>
+        <div class="w-5 h-6 bg-blue-500">Text</div>
+        <div class="w-5 h-6 bg-blue-600">Text</div>
+        <div class="w-5 h-6 bg-blue-700">Text</div>
+        <div class="w-5 h-6 bg-blue-800">Text</div>
+        <div class="w-5 h-6 bg-blue-900">Text</div>
+        
+    </body>
+</html>
+```
+
+### ch2
