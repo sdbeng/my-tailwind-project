@@ -2,6 +2,8 @@
 
 ## Challenges
 ### ch1:design 9 boxes with all shades of blue 20x24 px
+1rem = 16px
+
 ```
 <html>
     <head>
@@ -23,4 +25,13 @@
 </html>
 ```
 
-### ch2
+### ch2: padding & margin
+.{p|m}-{size}
+
+Sizes
+0,1,2,3,4,5,6    +1
+8,10,12,         +2
+16,20,24         +4
+32,40,48,56,64   +8
+
+### ch3
